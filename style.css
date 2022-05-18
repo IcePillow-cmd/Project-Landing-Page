@@ -157,6 +157,7 @@ ul li a {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .feature-image:active {
