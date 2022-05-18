@@ -68,7 +68,6 @@ ul li a {
 .hero-section {
     display: flex;
     flex-flow: row nowrap;
-    width: 800px;
     margin: auto;
 }
 
@@ -77,6 +76,7 @@ ul li a {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .hero-main {
@@ -86,10 +86,11 @@ ul li a {
 }
 
 .hero-details,
-.hero-button {
+.hero-button,
+.image-credits {
     font-family: omori-normal;
     font-size: 24px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .hero-button {
@@ -99,4 +100,17 @@ ul li a {
     background-color: black;
     display: flex;
     align-items: center;
+    padding: 4px 10px;
+    font-size: 20px;
+}
+
+.hero-media {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits-link:hover {
+    color: red;
 }
