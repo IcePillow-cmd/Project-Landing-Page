@@ -114,3 +114,65 @@ ul li a {
 .credits-link:hover {
     color: red;
 }
+
+/*Feature-section stylings*/
+
+.feature-section,
+.feature {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-section {
+    padding: 10px 0px;
+}
+
+.feature-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.feature-headings {
+    font-family: noto-sans;
+    font-size: 34px;
+    margin: 40px;
+}
+
+.feature-image {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    background-color: black;
+    border: 20px outset rgb(70, 69, 69);
+    outline: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0px 10px 5px gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.feature-image:active {
+    box-shadow: 0px 0px 0px ;
+    margin-bottom: -10px;
+}
+
+.key-letters {
+    font-family: omori-normal;
+    font-size: 5rem;
+    color: white;
+}
+
+.feature-details {
+    font-family: omori-normal;
+    font-size: 2rem;
+    width: 200px;
+    text-align: center;
+}
