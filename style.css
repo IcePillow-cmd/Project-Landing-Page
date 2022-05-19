@@ -111,8 +111,15 @@ ul li a {
     align-items: center;
 }
 
+.credits-link{
+    color: white;
+    text-decoration: underline;
+    transition: .5s cubic-bezier(.8,.8,.41,.42);
+}
+
 .credits-link:hover {
-    color: red;
+    background-color: white;
+    color: black;
 }
 
 /*Feature-section stylings*/
