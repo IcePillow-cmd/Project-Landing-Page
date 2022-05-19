@@ -225,3 +225,66 @@ ul li a {
     font-weight: bold;
     align-self: flex-end;
 }
+
+/*Sign section*/
+
+.sign-section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.sign-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border: 4px solid white;
+    border-radius: 10px;
+    outline: 1px solid black;
+    padding: 50px 80px;
+    gap: 50px;
+    margin: 50px;
+}
+
+.sign-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.sign-head {
+    display: inline;
+    font-family: noto-sans;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.sign-details {
+    display: inline;
+    font-family: omori-normal;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.sign-button {
+    width: 120px;
+    height: 50px;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    background-color: black;
+    border: 5px solid rgb(70, 69, 69);
+    border-radius: 10%;
+    font-family: omori-normal;
+    font-size: 28px;
+    color: white;
+}
