@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: omori-normal;
     src: url(fonts/omori_normal.ttf);
@@ -65,6 +69,19 @@ ul li a {
     color: white;
 }
 
+.logo-home:active {
+    content: url(images/bright-black-lightbulb.png);
+}
+
+.nav-scroll {
+    transition: 1s cubic-bezier(.35,.76,.43,.83);
+}
+
+.nav-scroll:hover {
+    text-shadow: 2px 2px 3px red;
+    margin: 5px;
+}
+
 .hero-section {
     display: flex;
     flex-flow: row nowrap;
@@ -111,17 +128,6 @@ ul li a {
     align-items: center;
 }
 
-.credits-link{
-    color: white;
-    text-decoration: underline;
-    transition: .5s cubic-bezier(.8,.8,.41,.42);
-}
-
-.credits-link:hover {
-    background-color: white;
-    color: black;
-}
-
 /*Feature-section stylings*/
 
 .feature-section,
@@ -133,7 +139,7 @@ ul li a {
 }
 
 .feature-section {
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 .feature-container {
@@ -218,7 +224,7 @@ ul li a {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 100px 100px;
 }
 
 .quote-main {
@@ -240,7 +246,7 @@ ul li a {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 .sign-card {
@@ -312,4 +318,15 @@ ul li a {
     font-family: omori-normal;
     font-size: 24px;
     color: white;
+}
+
+.credits-link{
+    color: white;
+    text-decoration: underline;
+    transition: .5s cubic-bezier(.35,.76,.43,.83);
+}
+
+.credits-link:hover {
+    background-color: white;
+    color: black;
 }
