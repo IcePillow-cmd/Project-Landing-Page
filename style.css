@@ -126,7 +126,7 @@ ul li a {
 }
 
 .feature-section {
-    padding: 10px 0px;
+    padding: 50px 0px;
 }
 
 .feature-container {
@@ -203,4 +203,25 @@ ul li a {
     font-size: 2rem;
     width: 200px;
     text-align: center;
+}
+
+/*Quote Section fo the page*/ 
+.quote-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.quote-main {
+    font-family: omori-normal;
+    font-size: 48px;
+}
+
+.quote-credit {
+    font-family: omori-scary;
+    font-size: 40px;
+    font-weight: bold;
+    align-self: flex-end;
 }
