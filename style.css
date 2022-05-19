@@ -171,6 +171,33 @@ ul li a {
     color: white;
 }
 
+.feature-image:active .key-letters{
+    color: transparent;
+}
+
+#feature-needs:active {
+    background-image: url(images/feature-whitespace/Feature-needs.gif);
+    background-position: center;
+}
+
+#feature-mewo:active {
+    background-image: url(images/feature-whitespace/Feature-mewo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#feature-neighbors:active {
+    background-image: url(images/feature-whitespace/Feature-neighbor.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#feature-something:active {
+    background-image: url(images/feature-whitespace/Feature-something.gif);
+    background-position: center;
+    background-size: contain;
+}
+
 .feature-details {
     font-family: omori-normal;
     font-size: 2rem;
