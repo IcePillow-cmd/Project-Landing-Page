@@ -82,6 +82,7 @@ ul li a {
     margin: 5px;
 }
 
+
 .hero-section {
     display: flex;
     flex-flow: row nowrap;
@@ -104,10 +105,15 @@ ul li a {
 
 .hero-details,
 .hero-button,
-.image-credits {
+.image-description {
     font-family: omori-normal;
     font-size: 24px;
     margin: 20px;
+}
+
+
+.image-description {
+    text-align: center;
 }
 
 .hero-button {
