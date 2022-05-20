@@ -306,6 +306,14 @@ ul li a {
     font-family: omori-normal;
     font-size: 28px;
     color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sign-button:hover {
+ box-shadow: 0px 4px 4px 4px red;   
+ border: 5px solid rgb(82, 59, 59);
+ margin-bottom: -4px;
 }
 
 /*Footer*/ 
