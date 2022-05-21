@@ -22,6 +22,9 @@ As far as I know (and my memory is concerned), I think all of the images here is
     3. [Friendly colorful neighbors](https://omori.fandom.com/wiki/NEIGHBOR%27S_ROOM?file=Omoriorigingroup.gif)
     4. [And of course who coud forget](https://omori.fandom.com/wiki/SOMETHING?file=Something_%2528Animation%2529.gif#PORTRAIT)
 
+## Favicons 
+- The default favicon is an edited version of **Black Lightbulb** from navigation's logo. (Yes, I edited it)
+
 ## Fonts 
 Fonts are from a reddit post so credits is to this [redditor](https://www.reddit.com/user/Banana_quack98632/) right here
 <br>
