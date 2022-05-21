@@ -223,6 +223,16 @@ ul li a {
     width: 200px;
     text-align: center;
 }
+/*Image door*/
+.whitespace-door {
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height:800px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 
 /*Quote Section fo the page*/ 
 .quote-section {
@@ -236,6 +246,7 @@ ul li a {
 .quote-main {
     font-family: omori-normal;
     font-size: 48px;
+    background-color: rgba(255, 255, 255, 0.298);
 }
 
 .quote-credit {
